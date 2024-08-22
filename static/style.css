@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000; /* TikTok black background */
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #ff0050; /* TikTok red-pink color */
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+form {
+    background: #1c1c1c; /* Darker background for form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 0, 85, 0.5);
+    max-width: 500px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ff0050;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #1c1c1c;
+    color: #ffffff;
+}
+
+button {
+    background-color: #ff0050;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff2c75;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    color: #ff0050;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff2c75;
+}

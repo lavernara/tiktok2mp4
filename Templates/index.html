@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Video Downloader</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>TikTok Video Downloader</h1>
+    <form id="download-form">
+        <label for="url">Enter TikTok Video URL:</label>
+        <input type="text" id="videoUrl" name="url" placeholder="https://www.tiktok.com/..." required>
+        <button type="submit" id="downloadBtn">Download</button>
+    </form>
+    <div id="download-link"></div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
